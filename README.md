@@ -1,3 +1,3 @@
-### A Simple Homepage of Winds Anarchy Server
+### Winds Anarchy Server - Homepage
 
 https://breeze.asia
