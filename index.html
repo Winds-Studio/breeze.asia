@@ -27,7 +27,7 @@
       <div class="col-12">
         <nav class="navbar navbar-expand-lg  blur blur-rounded top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
           <div class="container-fluid">
-            <a class="navbar-brand font-weight-bolder ms-sm-3" href="https://breeze.asia/" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
+            <a langfield="name" class="navbar-brand font-weight-bolder ms-sm-3" href="https://breeze.asia/" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
               Winds无政府
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -253,6 +253,11 @@
               </li>
             </ul>
           </div>
+          <select
+          class="langselect"
+          id="langselect"
+          onchange="setSelectLang(0)"
+        ></select>
         </div>
         <div class="col-12">
           <div class="text-center">
@@ -285,6 +290,7 @@
   <script src="./assets/js/plugins/parallax.min.js"></script>
   <!-- Control Center for Soft UI Kit: parallax effects, scripts for the example pages etc -->
   <script src="./assets/js/soft-design-system.min.js?v=1.0.5" type="text/javascript"></script>
+  <script src="./assets/js/lang.js" type="text/javascript"></script>
 </body>
 
 </html>
