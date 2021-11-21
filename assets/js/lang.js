@@ -54,7 +54,7 @@ function initLang(page) {
     }
   }
 
-  fetch("./locales/en.json")
+  fetch("./locales/zh_CN.json")
     .then((response) => response.json())
     .then((datafall) => {
       fallbacklang = datafall;
