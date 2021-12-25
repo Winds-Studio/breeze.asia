@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <title>
+    Winds Tech | 1.18.x
+  </title>
+
+</head>
+
+<body>
+  <iframe src="https://wj.qq.com/s2/9501755/e8a1/">
+    <p>您的浏览器不支持  iframe 标签。</p>
+  </iframe>
+  <script>
+    function changeFrameHeight() {
+  var iframe = document.getElementById("iframe");
+ iframe.height = document.documentElement.clientHeight;
+ }
+ //onresize属性可以用来获取或设置当前窗口的resize事件的事件处理函数
+ //onresize事件会在窗口或框架被调整大小时发生
+ window.onresize = function() {
+ changeFrameHeight();
+ }
+</script>
+
+</body>
+
+</html>
