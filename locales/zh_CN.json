@@ -1,11 +1,35 @@
 {
     "data":[
         {
+          "title": "Winds无政府 | 1.7.2 - 1.18.2",
           "server_name": "Winds无政府",
           "feature": "特色",
           "team": "服务器团队",
-          "screenshot": "风景欣赏",
-          "forum": "论坛"
+          "screenshots": "风景欣赏",
+          "forum": "论坛",
+          "description1": "一个 1.18.2 Minecraft无政府生存服务器",
+          "description2": "致力于提供良好的纯净生存体验",
+          "group": "点击加群",
+          "portal": "传送门",
+          "lang": "语言"
+        },
+        {
+          "feature1": "特色生存",
+          "feature2": "高度自由",
+          "feature3": "流畅不卡",
+          "feature4": "专业的管理团队",
+          "description3": "无规则, 原创地图, 更有挑战性, 非2B2T官服地图. 适当限制了飞行和变速齿轮, 并清除了破坏平衡的非法物品",
+          "description4": "没有排队系统, 没有白名单, 没有正版验证, 没有漏洞修复, 没有红石限制. 支持所有id注册(包括中文id), 以及基岩版进服",
+          "description5": "由高配主机强力驱动, 多条BGP线路容灾. 高度优化, 始终保持TPS 19-20和极低的mspt ^_^",
+          "description6": "我们拥有多年的服务器管理运维经验。发现bug时, 我们会在5分钟内给出解决方案并解决. 服主很阔爱, 欢迎骚扰服主qwq",
+          "block1": "下一代",
+          "block2": "无政府生存服"
+        },
+        {
+          "description7": "强大的服务器团队, 拥有多年运维开发经验.",
+          "dreeam": "服主",
+          "knelauncher": "服务商",
+          "limengzestudio": "服务商"
         }
       ]
 }

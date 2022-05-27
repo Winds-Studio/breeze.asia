@@ -1,3 +1,7 @@
+/**
+ * @author: Iris Shaders
+ * 
+ */
 let fileindex = ["index.html"];
 let trans = [
   "en",
