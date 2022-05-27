@@ -1,10 +1,10 @@
 let fileindex = ["index.html"];
-let traductions = [
+let trans = [
   "en",
   "zh_CN",
   "zh_TW",
 ];
-let traductionsNames = [
+let transNames = [
   "English",
   "简体中文",
   "繁體中文",
@@ -30,14 +30,14 @@ function setSelectLang(page) {
 function initLangSelect() {
   let select = document.getElementById("langselect");
   select.innerHTML = "";
-  traductionsNames.forEach(addOption);
+  transNames.forEach(addOption);
   select.value = lang;
 }
 
 function addOption(item, index) {
   let select = document.getElementById("langselect");
   let option = document.createElement("option");
-  option.value = traductions[index];
+  option.value = trans[index];
   option.innerHTML = item;
   select.appendChild(option);
 }
@@ -47,9 +47,9 @@ function initLang(page) {
     localStorage.setItem("lang", navigator.language.replace("-", "_"));
   }
   lang = localStorage.getItem("lang");
-  if (!traductions.includes(lang)) {
+  if (!trans.includes(lang)) {
     lang = lang.split("_")[0];
-    if (!traductions.includes(lang)) {
+    if (!trans.includes(lang)) {
       lang = "en";
     }
   }

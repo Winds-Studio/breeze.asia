@@ -12,8 +12,14 @@
   <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
   <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/9cc2d203b8.js" crossorigin="anonymous"></script>
-  <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
   <link id="pagestyle" href="./assets/css/soft-design-system.min.css?v=1.0.5" rel="stylesheet" />
+  <link href="./assets/css/lang.css" rel="stylesheet" />
+  <script defer="" type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function (event) {
+      reloadTheme("index.html");
+      initLang(0);
+    });
+  </script>
 </head>
 
 <body class="index-page">
@@ -25,7 +31,7 @@
           class="navbar navbar-expand-lg  blur blur-rounded top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
           <div class="container-fluid px-0">
             <a class="navbar-brand font-weight-bolder ms-sm-3" href="https://breeze.asia" rel="tooltip"
-              data-placement="bottom">
+              data-placement="bottom" langfield="server_name">
               Winds无政府
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
@@ -41,19 +47,19 @@
               <ul class="navbar-nav navbar-nav-hover ms-lg-12 ps-lg-5 w-100">
                 <li class="nav-item dropdown dropdown-hover mx-2">
                   <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
-                    href="#feature">
+                    href="#feature" langfield="feature">
                     特色
                   </a>
                 </li>
                 <li class="nav-item dropdown dropdown-hover mx-2">
                   <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
-                    href="#team">
+                    href="#team" langfield="team">
                     服务器团队
                   </a>
                 </li>
                 <li class="nav-item dropdown dropdown-hover mx-2">
                   <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
-                    id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+                    id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false" langfield="screenshot">
                     风景欣赏
                     <img src="./assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1">
                   </a>
@@ -62,7 +68,7 @@
                 </li>
                 <li class="nav-item my-auto ms-3 ms-lg-0">
                   <a href="https://bbs.breeze.asia"
-                    class="btn btn-sm  bg-gradient-primary  btn-round mb-0 me-1 mt-2 mt-md-0">论坛</a>
+                    class="btn btn-sm  bg-gradient-primary  btn-round mb-0 me-1 mt-2 mt-md-0" langfield="forum">论坛</a>
                 </li>
               </ul>
             </div>
@@ -77,7 +83,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7 text-center mx-auto">
-            <h1 class="text-white pt-3 mt-n5">Winds无政府</h1>
+            <h1 class="text-white pt-3 mt-n5" langfield="server_name">Winds无政府</h1>
             <p class="lead text-white mt-3">一个 1.18.2 Minecraft无政府生存服务器<br /> 致力于提供良好的纯净生存体验</p>
             <a class="btn bg-gradient-info mb-0 position-relative z-index-2"
               href="https://jq.qq.com/?_wv=1027&k=va7QNMsT">点击加群</a>
@@ -405,10 +411,11 @@
           <div>
             <h6 class="text-gradient text-info text-sm">语言</h6>
             <ul class="flex-column ms-n3 nav">
-              <li class="nav-item">
-                <select class="badge round bg-white dropdown-toggle" id="langselect" onchange="setSelectLang(0)">
-                </select>
-              </li>
+                <select
+                class="langselect"
+                id="langselect"
+                onchange="setSelectLang(0)"
+              ></select>
             </ul>
           </div>
         </div>
@@ -430,6 +437,7 @@
   <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
   <script src="./assets/js/plugins/perfect-scrollbar.min.js"></script>
   <script src="./assets/js/soft-design-system.min.js?v=1.0.5" type="text/javascript"></script>
+  <script src="./assets/js/plugins/darkmode.js"></script>
   <script src="./assets/js/lang.js" type="text/javascript"></script>
 </body>
 </html>

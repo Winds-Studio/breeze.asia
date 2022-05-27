@@ -1,7 +1,11 @@
 {
     "data":[
         {
-          "name": "Winds无政府"
+          "server_name": "Winds无政府",
+          "feature": "特色",
+          "team": "服务器团队",
+          "screenshot": "风景欣赏",
+          "forum": "论坛"
         }
       ]
 }

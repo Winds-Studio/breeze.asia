@@ -1,7 +1,11 @@
 {
-    "data":[
-        {
-          "name": "Winds Anarchy"
-        }
-      ]
+  "data":[
+      {
+        "server_name": "Winds Anarchy",
+        "feature": "Features",
+        "team": "Team",
+        "screenshot": "Sceenshot",
+        "forum": "Forum"
+      }
+    ]
 }
