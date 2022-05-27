@@ -7,13 +7,10 @@
         "team": "服务器团队1",
         "screenshots": "风景欣赏1",
         "forum": "论坛1",
-        "description1": "一个 1.18.2 Minecraft无政府生存服务器1",
-        "description2": "致力于提供良好的纯净生存体验1",
+        "description1": "一个 1.18.2 Minecraft无政府生存服务器1<br /> 致力于提供良好的纯净生存体验1",
         "group": "点击加群1",
         "portal": "传送门1",
-        "lang": "语言1"
-      },
-      {
+        "lang": "语言1",
         "feature1": "特色生存1",
         "feature2": "高度自由1",
         "feature3": "流畅不卡1",
@@ -23,9 +20,7 @@
         "description5": "由高配主机强力驱动, 多条BGP线路容灾. 高度优化, 始终保持TPS 19-20和极低的mspt ^_^1",
         "description6": "我们拥有多年的服务器管理运维经验。发现bug时, 我们会在5分钟内给出解决方案并解决. 服主很阔爱, 欢迎骚扰服主qwq1",
         "block1": "下一代1",
-        "block2": "无政府生存服1"
-      },
-      {
+        "block2": "无政府生存服1",
         "description7": "强大的服务器团队, 拥有多年运维开发经验.1",
         "dreeam": "服主1",
         "knelauncher": "服务商1",
