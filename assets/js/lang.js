@@ -7,7 +7,7 @@ let fileindex = ["index.html"];
 let trans = [
   "en",
   "zh_CN",
-  "zh_TW",
+  "zh_TC",
 ];
 let transNames = [
   "English",
