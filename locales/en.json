@@ -1,7 +1,7 @@
 {
   "data":[
       {
-        "title": "Winds Anarchy | 1.17.x - 1.19",
+        "title": "Winds Anarchy | 1.7.2 - 1.19",
         "server_name": "Winds Anarchy",
         "feature": "Features",
         "team": "Team",
@@ -11,7 +11,6 @@
         "group": "Join Group",
         "portal": "Portal",
         "lang": "Language",
-        "1-19-update": "1.19 released, we are preparing the upgrade of 1.19, for details, please see >>",
         "feature1": "Characteristic Survival",
         "feature2": "Freedom",
         "feature3": "High Performance",
