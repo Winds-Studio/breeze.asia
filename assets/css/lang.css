@@ -1,8 +1,11 @@
 .langselect {
-  border: none;
   padding: 7px;
-  border-radius: 5px;
   width: 97%;
   margin: 10px;
-  background-color: #c6e0f5;;
+  border: 2px;
+  border-color: #C0C0C0;
+  border-style: solid;
+  border-radius: 10px;
+
+  /* background-color: #c6e0f5;; */
 }
