@@ -1,3 +1,3 @@
 ### Winds Anarchy Server - Homepage
 
-https://breeze.asia
+https://winds-studio.github.io/breeze.asia/
