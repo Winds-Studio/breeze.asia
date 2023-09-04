@@ -12,7 +12,7 @@
   <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
   <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/9cc2d203b8.js" crossorigin="anonymous"></script>
-  <link id="pagestyle" href="./assets/css/soft-design-system.min.css?v=1.0.5" rel="stylesheet" />
+  <link id="pagestyle" href="./assets/css/soft-design-system.css?v=1.0.5" rel="stylesheet" />
   <link href="./assets/css/lang.css" rel="stylesheet" />
   <script defer="" type="text/javascript">
     document.addEventListener("DOMContentLoaded", function (event) {
@@ -30,8 +30,8 @@
         <nav
           class="navbar navbar-expand-lg  blur blur-rounded top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
           <div class="container-fluid px-0">
-            <a class="navbar-brand font-weight-bolder ms-sm-3" href="#" rel="tooltip"
-              data-placement="bottom" langfield="server_name">
+            <a class="navbar-brand font-weight-bolder ms-sm-3" href="#" rel="tooltip" data-placement="bottom"
+              langfield="server_name">
               Winds无政府
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
@@ -52,14 +52,15 @@
                   </a>
                 </li>
                 <li class="nav-item dropdown dropdown-hover mx-2">
-                  <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
-                    href="#team" langfield="team">
+                  <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="#team"
+                    langfield="team">
                     服务器团队
                   </a>
                 </li>
                 <li class="nav-item dropdown dropdown-hover mx-2">
                   <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center"
-                    id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false" langfield="screenshots">
+                    href="./showcase.html" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false"
+                    langfield="showcase">
                     风景欣赏
                     <img src="./assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1">
                   </a>
@@ -84,9 +85,10 @@
         <div class="row">
           <div class="col-lg-7 text-center mx-auto">
             <h1 class="text-white pt-3 mt-n5" langfield="server_name">Winds无政府</h1>
-            <p class="lead text-white mt-3" langfield="description1">一个 1.20.1 Minecraft无政府生存服务器<br /> 致力于提供良好的纯净生存体验</p>
+            <p class="lead text-white mt-3" langfield="description1">一个 1.20.1 Minecraft无政府生存服务器<br /> 致力于提供良好的纯净生存体验
+            </p>
             <a class="btn bg-gradient-info mb-0 position-relative z-index-2"
-              href="https://jq.qq.com/?_wv=1027&k=va7QNMsT" langfield="group">点击加群</a>
+              href="https://jq.qq.com/?_wv=1027&k=va7QNMsT" target="_blank" langfield="group">点击加群</a>
           </div>
         </div>
       </div>
@@ -108,6 +110,7 @@
       </div>
     </div>
   </header>
+
   <section class="my-5 py-5" id="feature">
     <div class="container">
       <div class="row align-items-center">
@@ -115,7 +118,7 @@
           <div class="row justify-content-left">
             <div class="col-md-6">
               <div class="info">
-                  <i class="fa-solid fa-puzzle-piece fa-2x text-info"></i>
+                <i class="fa-solid fa-puzzle-piece fa-2x text-info"></i>
                 <h5 class="font-weight-bolder mt-3" langfield="feature1">特色生存</h5>
                 <p class="pe-5" langfield="description2">无规则, 原创地图, 非2B2T官服地图, 更有挑战性. 适当限制了飞行和变速齿轮, 并清除了破坏平衡的非法物品</p>
               </div>
@@ -124,7 +127,8 @@
               <div class="info">
                 <i class="fa-solid fa-paper-plane fa-2x text-info"></i>
                 <h5 class="font-weight-bolder mt-3" langfield="feature2">高度自由</h5>
-                <p class="pe-3" langfield="description3">没有排队系统, 没有白名单, 没有正版验证, 没有漏洞修复, 没有红石限制, 没有神权. 支持所有id注册(包括中文id), 以及基岩版进服</p>
+                <p class="pe-3" langfield="description3">没有排队系统, 没有白名单, 没有正版验证, 没有漏洞修复, 没有红石限制, 没有神权. 支持所有id注册(包括中文id),
+                  以及基岩版进服</p>
               </div>
             </div>
           </div>
@@ -140,7 +144,7 @@
               <div class="info">
                 <i class="fa-solid fa-terminal fa-2x text-info"></i>
                 <h5 class="font-weight-bolder mt-3" langfield="feature4">专业的管理团队</h5>
-                <p  langfield="description5">我们拥有多年的服务器管理运维经验. 发现bug时, 我们会在5分钟内给出解决方案并解决. 服主很阔爱, 欢迎骚扰服主qwq</p>
+                <p langfield="description5">我们拥有多年的服务器管理运维经验. 发现bug时, 我们会在5分钟内给出解决方案并解决. 服主很阔爱, 欢迎骚扰服主qwq</p>
               </div>
             </div>
           </div>
@@ -172,23 +176,27 @@
                 </svg>
               </div>
               <h2 class="text-white up mb-0" langfield="block">下一代 <br /> 无政府生存服</h2>
-              <a href="#" target="_blank" class="btn btn-outline-white mt-5 up btn-round" langfield="screenshots">风景欣赏</a>
+              <a href="./showcase.html" class="btn btn-outline-white mt-5 up btn-round" langfield="showcase">风景欣赏</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-
   </section>
 
   <section class="pt-sm-8 pb-5 position-relative bg-gradient-secondary" id="team">
     <div class="position-absolute w-100 z-inde-1 top-0 mt-n3">
-      <svg width="100%" viewBox="0 -2 1920 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg width="100%" viewBox="0 -2 1920 157" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
         <title>wave-down</title>
         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <g fill="#FFFFFF" fill-rule="nonzero">
             <g id="wave-down">
-              <path d="M0,60.8320331 C299.333333,115.127115 618.333333,111.165365 959,47.8320321 C1299.66667,-15.5013009 1620.66667,-15.2062179 1920,47.8320331 L1920,156.389409 L0,156.389409 L0,60.8320331 Z" id="Path-Copy-2" transform="translate(960.000000, 78.416017) rotate(180.000000) translate(-960.000000, -78.416017) "></path>
+              <path
+                d="M0,60.8320331 C299.333333,115.127115 618.333333,111.165365 959,47.8320321 C1299.66667,-15.5013009 1620.66667,-15.2062179 1920,47.8320331 L1920,156.389409 L0,156.389409 L0,60.8320331 Z"
+                id="Path-Copy-2"
+                transform="translate(960.000000, 78.416017) rotate(180.000000) translate(-960.000000, -78.416017) ">
+              </path>
             </g>
           </g>
         </g>
@@ -197,7 +205,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 text-start mb-5 mt-5">
-          <h3 class="text-white z-index-1 position-relative"  langfield="team">服务器团队</h3>
+          <h3 class="text-white z-index-1 position-relative" langfield="team">服务器团队</h3>
           <p class="text-white opacity-8 mb-0" langfield="description6">强大的服务器团队, 拥有多年运维开发经验.</p>
         </div>
       </div>
@@ -206,11 +214,9 @@
           <div class="card card-profile overflow-hidden">
             <div class="row">
               <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
-                <a href="javascript:;">
-                  <div class="p-3 pe-md-0">
-                    <img class="w-100 border-radius-md" src="./assets/img/profile/Dreeam.jpg" alt="image">
-                  </div>
-                </a>
+                <div class="p-3 pe-md-0">
+                  <img class="w-100 border-radius-md" src="./assets/img/profile/Dreeam.jpg" alt="Dreeam">
+                </div>
               </div>
               <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
                 <div class="card-body">
@@ -226,11 +232,9 @@
           <div class="card card-profile mt-lg-0 mt-5 overflow-hidden">
             <div class="row">
               <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
-                <a href="javascript:;">
-                  <div class="p-3 pe-md-0">
-                    <img class="w-100 border-radius-md" src="./assets/img/profile/KNELauncher.jpg" alt="image">
-                  </div>
-                </a>
+                <div class="p-3 pe-md-0">
+                  <img class="w-100 border-radius-md" src="./assets/img/profile/KNELauncher.jpg" alt="KNE">
+                </div>
               </div>
               <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
                 <div class="card-body">
@@ -248,11 +252,9 @@
           <div class="card card-profile overflow-hidden z-index-2">
             <div class="row">
               <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
-                <a href="javascript:;">
-                  <div class="p-3 pe-md-0">
-                    <img class="w-100 border-radius-md" src="./assets/img/profile/limengzestudio.jpg" alt="image">
-                  </div>
-                </a>
+                <div class="p-3 pe-md-0">
+                  <img class="w-100 border-radius-md" src="./assets/img/profile/limengzestudio.jpg" alt="limengzestudio">
+                </div>
               </div>
               <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
                 <div class="card-body">
@@ -267,12 +269,15 @@
       </div>
     </div>
     <div class="position-absolute w-100 bottom-0 mn-n1">
-      <svg width="100%" viewBox="0 -1 1920 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg width="100%" viewBox="0 -1 1920 166" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
         <title>wave-up</title>
         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <g transform="translate(0.000000, 5.000000)" fill="#FFFFFF" fill-rule="nonzero">
             <g id="wave-up" transform="translate(0.000000, -5.000000)">
-              <path d="M0,70 C298.666667,105.333333 618.666667,95 960,39 C1301.33333,-17 1621.33333,-11.3333333 1920,56 L1920,165 L0,165 L0,70 Z"></path>
+              <path
+                d="M0,70 C298.666667,105.333333 618.666667,95 960,39 C1301.33333,-17 1621.33333,-11.3333333 1920,56 L1920,165 L0,165 L0,70 Z">
+              </path>
             </g>
           </g>
         </g>
@@ -302,7 +307,8 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link pe-1" href="https://www.youtube.com/channel/UC7w-gAYNsBFhSdYnyiK4uMw" target="_blank">
+                <a class="nav-link pe-1" href="https://www.youtube.com/channel/UC7w-gAYNsBFhSdYnyiK4uMw"
+                  target="_blank">
                   <i class="fab fa-youtube text-lg opacity-8"></i>
                 </a>
               </li>
@@ -314,17 +320,17 @@
             <h6 class="text-gradient text-info text-sm" langfield="portal">传送门</h6>
             <ul class="flex-column ms-n3 nav">
               <li class="nav-item">
-                <a class="nav-link" href="#feature" target="_blank"  langfield="feature">
+                <a class="nav-link" href="#feature" langfield="feature">
                   特色
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#team" target="_blank" langfield="team">
+                <a class="nav-link" href="#team" langfield="team">
                   服务器团队
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" target="_blank" langfield="screenshots">
+                <a class="nav-link" href="./showcase.html" langfield="showcase">
                   风景欣赏
                 </a>
               </li>
@@ -335,11 +341,7 @@
           <div>
             <h6 class="text-gradient text-info text-sm" langfield="lang">语言</h6>
             <ul class="flex-column ms-n3 nav">
-                <select
-                class="langselect"
-                id="langselect"
-                onchange="setSelectLang(0)"
-              ></select>
+              <select class="langselect" id="langselect" onchange="setSelectLang(0)"></select>
             </ul>
           </div>
         </div>
@@ -367,4 +369,5 @@
   <script src="./assets/js/plugins/darkmode.js"></script>
   <script src="./assets/js/lang.js" type="text/javascript"></script>
 </body>
+
 </html>
