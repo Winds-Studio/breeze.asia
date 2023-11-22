@@ -1,0 +1,12 @@
+/* Dreeam - Make the picture be full in the button */
+.btn2 {
+    --bs-btn-padding-y: 1;
+  }
+
+  /* Dreeam - Category of winds showcases that on the center of the page should be compat */
+.categotry {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

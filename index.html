@@ -8,11 +8,11 @@
   <title langfield="title">
     Winds无政府 | 1.7.2 - 1.20.2
   </title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
   <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
   <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/9cc2d203b8.js" crossorigin="anonymous"></script>
-  <link id="pagestyle" href="./assets/css/soft-design-system.css?v=1.0.5" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/9cc2d203b8.js" crossorigin="anonymous" rel="preload"></script>
+  <!-- Only switch to origin css when dev or debug -->
+  <link id="pagestyle" href="./assets/css/soft-design-system.min.css?v=1.0.5" rel="preload stylesheet" />
   <link href="./assets/css/lang.css" rel="stylesheet" />
   <script defer="" type="text/javascript">
     document.addEventListener("DOMContentLoaded", function (event) {
@@ -30,8 +30,8 @@
         <nav
           class="navbar navbar-expand-lg  blur blur-rounded top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
           <div class="container-fluid px-0">
-            <a class="navbar-brand font-weight-bolder ms-sm-3" href="https://breeze.asia" rel="tooltip" data-placement="bottom"
-              langfield="server_name">
+            <a class="navbar-brand font-weight-bolder ms-sm-3" href="https://breeze.asia" rel="tooltip"
+              data-placement="bottom" langfield="server_name">
               Winds无政府
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse"
@@ -59,7 +59,8 @@
                 </li>
                 <li class="nav-item dropdown dropdown-hover mx-2">
                   <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer dropdown-toggle align-items-center"
-                    href="./showcase.html" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false" langfield="showcase">
+                    href="./showcase.html" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false"
+                    langfield="showcase">
                     风景欣赏
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -71,8 +72,8 @@
                 <li class="nav-item ms-lg-auto">
                 </li>
                 <li class="nav-item my-auto ms-3 ms-lg-0">
-                  <a href="https://bbs.breeze.asia" class="btn btn-sm  bg-gradient-primary  btn-round mb-0 me-1 mt-2 mt-md-0"
-                    langfield="forum">论坛</a>
+                  <a href="https://bbs.breeze.asia"
+                    class="btn btn-sm  bg-gradient-primary  btn-round mb-0 me-1 mt-2 mt-md-0" langfield="forum">论坛</a>
                 </li>
               </ul>
             </div>
@@ -154,7 +155,7 @@
         </div>
         <div class="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4">
           <div class="card card-background card-background-mask-info tilt" data-tilt>
-            <div class="full-background" style="background-image: url('#')"></div>
+            <div class="full-background" style="background-image: url('./assets/img/winds_anarchy_bg.jpg')"></div>
             <div class="card-body pt-7 text-center">
               <div class="icon icon-lg up mb-3 mt-3">
                 <svg width="50px" height="50px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -187,7 +188,8 @@
     </div>
   </section>
 
-  <section class="pt-sm-8 pb-5 position-relative bg-gradient-secondary" id="team">
+  <section class="pt-sm-8 pb-5 position-relative bg-gradient-secondary" id="team"
+    style="background-image: url('./assets/img/winds_anarchy_bg.jpg')">
     <div class="position-absolute w-100 z-inde-1 top-0 mt-n3">
       <svg width="100%" viewBox="0 -2 1920 157" version="1.1" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -256,7 +258,8 @@
             <div class="row">
               <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
                 <div class="p-3 pe-md-0">
-                  <img class="w-100 border-radius-md" src="./assets/img/profile/limengzestudio.jpg" alt="limengzestudio">
+                  <img class="w-100 border-radius-md" src="./assets/img/profile/limengzestudio.jpg"
+                    alt="limengzestudio">
                 </div>
               </div>
               <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
@@ -351,7 +354,7 @@
         <div class="col-12">
           <div class="text-center">
             <p class="my-4 text-sm">
-              All rights reserved. Copyright © 2019-
+              All rights reserved. Copyright © 2019 -
               <script>
                 document.write(new Date().getFullYear())
               </script> Winds无政府</a>.
@@ -372,5 +375,4 @@
   <script src="./assets/js/plugins/darkmode.js"></script>
   <script src="./assets/js/lang.js" type="text/javascript"></script>
 </body>
-
 </html>
